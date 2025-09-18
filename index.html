@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainDiv{
+            border: 2px solid purple;
+            width: 20%;
+            margin:auto;
+            padding-bottom: 2opx;
+            border-radius: 10px 10px 0 0;
+            background-color: blueviolet;
+        }
+        .head{
+            text-align: center;
+            text-shadow: 2px 2px red;
+            color: #00ff22;
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 5rem;
+            margin-top: 10px;
+        }
+        .label{
+            text-align: center;
+        }
+        .entry{
+            margin-bottom: 20px;
+        }
+        input{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div>
+            <img src="books.jpeg">
+        </div>
+        <div>
+            <h1 class="head">Books registration</h1>
+        </div>
+        <div class="label">
+            <form>
+                <label for="author">Author:</label><br>
+                <input type="text"><br>
+                <label for="title">Title:</label><br>
+                <input type="text" placeholder=><br>
+                <label for="edition">Edition:</label><br>
+                <input type="text"><br>
+                <label for="publishe">Publisher:</label><br>
+                <input type="text"><br>
+                <label for="publication date">Publication Date:</label><br>
+                <input type="number"><br>
+                <label for="call number">Call Number:</label><br>
+                <input type="text"><br>
+                <label for="accession number">Accession Number:</label><br>
+                <input type="number"><br>
+                <label for="isbn">ISBN:</label><br>
+                <input type="text"><br><br>
+                <button class="entry">Add Entry</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
