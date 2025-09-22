@@ -48,24 +48,24 @@
             <h1 class="head">Books registration</h1>
         </div>
         <div class="label">
-            <form>
+            <form action="index.php" method="post">
                 <label for="author">Author:</label><br>
-                <input type="text"><br>
+                <input type="text" name="author"><br>
                 <label for="title">Title:</label><br>
-                <input type="text" placeholder=><br>
+                <input type="text" name="title"><br>
                 <label for="edition">Edition:</label><br>
-                <input type="text"><br>
-                <label for="publishe">Publisher:</label><br>
-                <input type="text"><br>
+                <input type="text" name="edition"><br>
+                <label for="publisher">Publisher:</label><br>
+                <input type="text" name="publisher"><br>
                 <label for="publication date">Publication Date:</label><br>
-                <input type="number"><br>
+                <input type="number" name="publication_date"><br>
                 <label for="call number">Call Number:</label><br>
-                <input type="text"><br>
+                <input type="text" name="call_number"><br>
                 <label for="accession number">Accession Number:</label><br>
-                <input type="number"><br>
+                <input type="number" name="accession_number"><br>
                 <label for="isbn">ISBN:</label><br>
-                <input type="text"><br><br>
-                <button class="entry">Add Entry</button>
+                <input type="text" name="isbn"><br><br>
+                <button class="entry" type="submit" name="entry">Add Entry</button>
             </form>
         </div>
     </div>
